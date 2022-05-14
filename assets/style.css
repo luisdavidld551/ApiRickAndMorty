@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #24282f;
+}
+h1 {
+  text-align: center;
+  font-weight: 900;
+}
+.header{
+  width: 100%;
+}
+.slide {
+  width: 100%;
+  height: 200px;
+}
+.slide img {
+  width: 100%;
+  height: 200px;
+  object-fit: unset;
+}
+.headerStyle {
+  color: #ffffff;
+  width: 100%;
+  height: 200px;
+  /* top: 50%; */
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pagination{
+  padding-left: 50%;
+}
+.characters {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+}
+.cardRick {
+  width: 550px;
+  height: 230px;
+  display: flex;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  background: #3c3e44;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+.strongStyle {
+  color: #9e9e9e;
+}
+.alive {
+  color: #3de213;
+}
+.unknown {
+  color: #b8b8b8;
+}
+.dead {
+  color: #f00;
+}
+.hoverStyle:hover {
+  color: #f09217;
+}
+
+@media (max-width: 1230px) {
+  img {
+    height: 265px !important;
+  }
+  .cardRick {
+    width: 425px;
+    height: 265px;
+  }
+}
+@media (max-width: 960px) {
+  .cardRick {
+    width: 90%;
+    height: auto;
+  }
+  .characters {
+    text-align: center;
+  }
+}
